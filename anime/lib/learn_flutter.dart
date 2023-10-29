@@ -1,6 +1,6 @@
 // ignore_for_file: unused_import
-
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class LearnFlutterPage extends StatefulWidget {
   const LearnFlutterPage({super.key});
@@ -25,10 +25,10 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
       ),
       body: Column(
         children: [
-          Image.asset('images\renguko.jpg'),
-          const Divider(
-            color : Colors.black,
-          )
+          Image.asset('assets/image/renguko.jpg'),
+          // const Divider(
+          //   color : Colors.black,
+          // )
         ],
       )
     );
