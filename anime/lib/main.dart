@@ -1,4 +1,5 @@
 import 'package:anime/home_page.dart';
+import 'package:anime/theme/pallete.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -30,6 +31,7 @@ class _RootPageState extends State<RootPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Pallete.blueOne,
       appBar: AppBar(
         title: const Text('Anime'),
       ),
